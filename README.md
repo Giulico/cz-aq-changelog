@@ -11,11 +11,11 @@ Adapter of [cz conventional changelog](https://github.com/commitizen/cz-conventi
 
 ## Prompts:
 ### Types:
-- *Features* : A new feature
-- *Documentation* : Documentation only changes
-- *Styles* : Changes that affect the style of your appication (scss, formatting, ecc)
-- *Code Refactoring* : Changes to fix bugs, improve performance and tests
-- *Builds* : Changes that affect the build system or external dependencies (Webpack, npm, git, ecc)
+- **Features** : A new feature
+- **Documentation** : Documentation only changes
+- **Styles** : Changes that affect the style of your appication (scss, formatting, ecc)
+- **Refactoring** : Changes to fix bugs, improve performance and tests
+- **Builds** : Changes that affect the build system or external dependencies (Webpack, npm, git, ecc)
 
 ### Subject
 A short, imperative tense description of the change
