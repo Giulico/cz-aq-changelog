@@ -22,7 +22,7 @@ module.exports = function (options) {
   var choices = map(types, function (type, key) {
     return {
       name: rightPad('[' + type.title + '] =>', length) + ' ' + type.description,
-      value: key
+      value: type.title
     };
   });
 
