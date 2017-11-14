@@ -13,6 +13,8 @@ conventionalCommitTypes.types.refactor.description = "Changes to fix bugs, impro
 conventionalCommitTypes.types.style.description = "Changes that affect the style of your appication (scss, formatting, ecc)";
 conventionalCommitTypes.types.build.description = "Changes that affect the build system or external dependencies (Webpack, npm, git, ecc)";
 
+console.log(conventionalCommitTypes.types);
+
 module.exports = engine({
   types: conventionalCommitTypes.types
 });
