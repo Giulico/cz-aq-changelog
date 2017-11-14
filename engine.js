@@ -21,8 +21,8 @@ module.exports = function (options) {
   var length = longest(Object.keys(types)).length + 1;
   var choices = map(types, function (type, key) {
     return {
-      name: rightPad('[' + type.title + '] =>', length) + ' ' + type.description,
-      value: type.title
+      name: rightPad(type.emoji + ' (' + type.title + ') =>', length) + ' ' + type.description,
+      value: type.emoji + ' (' + type.title + ')'
     };
   });
 
